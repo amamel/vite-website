@@ -1,0 +1,34 @@
+@charset 'UTF-8';
+// 1. Configuration and helpers - mixins, variables and tools that do not output code
+@import 'config/normalize',
+'config/variables',
+'config/accessibility',
+'config/layout',
+'config/mixins',
+'config/helpers',
+'config/animations',
+'config/svgs';
+// 2. Elemental stuff - Root elements styles
+@import 'elements/progress',
+'elements/icons',
+'elements/typography',
+'elements/forms',
+'elements/links',
+'elements/buttons',
+'elements/tables',
+'elements/lists';
+// 3. Site - Main site components
+@import 'site/base',
+'site/site-nav',
+'site/grid',
+'site/sidebar',
+'site/site-header',
+'site/footer',
+'site/sections',
+'site/posts',
+'site/projects',
+'site/front-page',
+'site/404',
+'site/site';
+// 4. Shameful styles - styles that need to be removed and handled differently
+@import 'shame';
