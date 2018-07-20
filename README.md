@@ -13,7 +13,7 @@ This pipeline uses WordPress as a CMS, SASS for styling, and jQuery as a JavaScr
 To Setup the project you will need to do the following:
 
 ```sh
-$ git clone https://github.com/amamel/wp-vite.git
+$ git clone https://github.com/amamel/vite-website.git
 $ cd wp-vite-theme
 $ npm install --save-dev
 $ gulp watch
